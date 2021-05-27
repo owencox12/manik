@@ -1,0 +1,118 @@
+.main {
+    background: #E5E5E5;
+    min-height: 1869px;
+    padding: 80px 0 81px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 38px;
+        &--second {
+            margin-top: 100px;
+        }
+        &--third {
+            height: 357px;
+            background: #fff;
+            justify-content: center;
+            margin-top: 100px;
+        }
+    }
+    &__item {
+        width: 255px;
+        min-height: 363px;
+        background: #fff;
+        padding: 25px 0;
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &__descr {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+
+        color: #333333;
+        width: 195px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    &__price {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: 0.05em;
+
+        color: #000000;
+        margin-top: 20px;
+    }
+    &__block {
+        width: 540px;
+        min-height: 212px;
+        background: #F13C6E;
+        padding: 35px 40px;
+        position: relative;
+        &_title {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 21px;
+
+            color: #FFFFFF;
+        }
+        &_descr {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 20px;
+            margin-top: 25px;
+
+            color: #FFFFFF;
+        }
+        &_input {
+            background: #FFFFFF;
+            border-radius: 30px;
+            border: none;
+            width: 225px;
+            height: 35px;
+            margin-top: 25px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #C4C4C4;
+            padding-left: 25px;
+        }
+        &_image {
+            position: absolute;
+            right: 10%;
+            top: 20%;
+            &_second {
+                top: 30%;
+            }
+        }
+    }
+    &__block_sponsor {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 35px 60px;
+        padding-left: 120px;
+    }
+    &__sponsor {
+        width: 25%;
+        margin-bottom: 70px;
+    }
+    .main__title--second {
+        margin-top: 80px;
+    }
+}
